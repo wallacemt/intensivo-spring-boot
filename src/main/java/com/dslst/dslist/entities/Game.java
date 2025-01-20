@@ -24,8 +24,14 @@ public class Game {
     @Column(name = "game_year")
     private String year;
     private String genre;
+    private String platforms;
+    private Double score;
     private String imgUrl;
-    private String shordDescription;
+
+    @Column(columnDefinition = ("TEXT"))
+    private String shortDescription;
+
+    @Column(columnDefinition = "TEXT")
     private String longDescription;
 
     @Override
