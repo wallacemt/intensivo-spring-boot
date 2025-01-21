@@ -10,7 +10,7 @@ import java.util.Objects;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "tb_gameList")
+@Table(name = "tb_game_list")
 public class GameList {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
